@@ -1,0 +1,6 @@
+framework module Pods_specificDeepLink_Example {
+  umbrella header "Pods-specificDeepLink_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

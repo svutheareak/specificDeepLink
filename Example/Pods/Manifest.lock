@@ -1,0 +1,16 @@
+PODS:
+  - specificDeepLink (0.1.0)
+
+DEPENDENCIES:
+  - specificDeepLink (from `../`)
+
+EXTERNAL SOURCES:
+  specificDeepLink:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  specificDeepLink: 11b74dcf775dcdfc4e79aa9e45236ef50377b8be
+
+PODFILE CHECKSUM: 174b0d822b8592694e3a497a1e3e9d6eac781cda
+
+COCOAPODS: 1.12.1

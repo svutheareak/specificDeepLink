@@ -1,0 +1,6 @@
+framework module specificDeepLink {
+  umbrella header "specificDeepLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

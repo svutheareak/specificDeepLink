@@ -1,0 +1,22 @@
+{
+  "name": "specificDeepLink",
+  "version": "0.1.0",
+  "summary": "A short description of specificDeepLink.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/33893981/specificDeepLink",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "33893981": "sam.vutheareak@princebank.com.kh"
+  },
+  "source": {
+    "git": "https://github.com/33893981/specificDeepLink.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "specificDeepLink/Classes/**/*"
+}

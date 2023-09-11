@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'specificDeepLink_Example' do
+  pod 'specificDeepLink', :path => '../'
+
+  target 'specificDeepLink_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

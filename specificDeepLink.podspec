@@ -26,12 +26,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'svutheareak' => 'svutheareak@gmail.com' }
-  s.source           = { :git => 'https://github.com/svutheareak/specificDeepLink.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://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@github.com/svutheareak/specificDeepLink.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.linkedin.com/in/sam-vutheareak-bb174719a'
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'specificDeepLink/Classes/**/*'
+#  s.source_files = 'specificDeepLink/Classes/**/*'
   
   # s.resource_bundles = {
   #   'specificDeepLink' => ['specificDeepLink/Assets/*.png']

@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
 'specificDeepLink is an awsome pod to process connection with PBApplication. You can pass the value and connect to our App and return value back after it process done.'.
                        DESC
 
-  s.homepage         = 'https://github.com/33893981/specificDeepLink'
+  s.homepage         = 'https://github.com/svutheareak/specificDeepLink.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Tobi' => 'svutheareak@gmail.com' }
+  s.author           = { 'svutheareak' => 'svutheareak@gmail.com' }
   s.source           = { :git => 'https://github.com/svutheareak/specificDeepLink.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.linkedin.com/in/sam-vutheareak-bb174719a'
 

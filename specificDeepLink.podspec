@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'specificDeepLink'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'specificDeepLink is the link that allow user to passing and return the value with PBApplication.'
   s.swift_version    = '5'
 

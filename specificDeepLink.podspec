@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'specificDeepLink is an awsome pod to process connection with PBApplication'.
+'specificDeepLink is an awsome pod to process connection with PBApplication. You can pass the value and connect to our App and return value back after it process done.'.
                        DESC
 
   s.homepage         = 'https://github.com/33893981/specificDeepLink'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/33893981/specificDeepLink.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.linkedin.com/in/sam-vutheareak-bb174719a/'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'specificDeepLink/Classes/**/*'
   

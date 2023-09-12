@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'specificDeepLink/passingLink.swift'
+  s.source_files = 'specificDeepLink/source/*.swift'
   
   # s.resource_bundles = {
   #   'specificDeepLink' => ['specificDeepLink/Assets/*.png']

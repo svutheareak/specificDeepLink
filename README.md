@@ -22,7 +22,7 @@ pod 'specificDeepLink'
 
 ## Author
 
-33893981, sam.vutheareak@princebank.com.kh
+svutheareak@gmail.com
 
 ## License
 

@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		67D29A13F6A1806B517FAC0F /* Pods_specificDeepLink_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE7EA159B2E64D3FC2B1116 /* Pods_specificDeepLink_Example.framework */; };
 		88D117A933740E4BB85B51CA /* Pods_specificDeepLink_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194DBBB30982F6264EBC77A8 /* Pods_specificDeepLink_Tests.framework */; };
+		CE6AFFF02AB00BBB00AAB0AC /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6AFFEF2AB00BBB00AAB0AC /* ViewHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75F457E4F599DFBF9B327628 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D7C912864814DD02D46674B8 /* specificDeepLink.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = specificDeepLink.podspec; path = ../specificDeepLink.podspec; sourceTree = "<group>"; };
+		CE6AFFEF2AB00BBB00AAB0AC /* ViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		D7C912864814DD02D46674B8 /* specificDeepLink.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = specificDeepLink.podspec; path = ../specificDeepLink.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5E4F332CC00917EC04F2D0D /* Pods-specificDeepLink_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specificDeepLink_Tests.release.xcconfig"; path = "Target Support Files/Pods-specificDeepLink_Tests/Pods-specificDeepLink_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E79CC33BBC769919418643E6 /* Pods-specificDeepLink_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specificDeepLink_Example.debug.xcconfig"; path = "Target Support Files/Pods-specificDeepLink_Example/Pods-specificDeepLink_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE7EA159B2E64D3FC2B1116 /* Pods_specificDeepLink_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_specificDeepLink_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for specificDeepLink */ = {
 			isa = PBXGroup;
 			children = (
+				CE6AFFEF2AB00BBB00AAB0AC /* ViewHelper.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CE6AFFF02AB00BBB00AAB0AC /* ViewHelper.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

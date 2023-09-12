@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'specificDeepLink'
-  s.version          = '0.1.3'
+  s.version          = '0.1.2'
   s.summary          = 'specificDeepLink is the link that allow user to passing and return the value with PBApplication.'
   s.swift_version    = '5'
 
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-#  s.source_files = 'specificDeepLink/Classes/**/*'
+  s.source_files = 'specificDeepLink/passingLink.swift'
   
   # s.resource_bundles = {
   #   'specificDeepLink' => ['specificDeepLink/Assets/*.png']
